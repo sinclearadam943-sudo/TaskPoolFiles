@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-16T10:05:00Z",
+  "updated_at": "2026-03-16T18:05:00+08:00",
   "tasks": [
     {
       "id": "task-001",
@@ -9,17 +9,17 @@
       "status": "completed",
       "assignee": "oc-kimi",
       "source_file": "tasks-md/task-001-ai-article.md",
-      "created_at": "2026-03-16T10:00:00Z",
-      "started_at": "2026-03-16T16:40:00Z",
-      "completed_at": "2026-03-16T16:45:00Z",
-      "approved_at": "2026-03-16T14:30:00Z",
+      "created_at": "2026-03-16T18:00:00+08:00",
+      "started_at": "2026-03-16T20:40:00+08:00",
+      "completed_at": "2026-03-16T20:45:00+08:00",
+      "approved_at": "2026-03-16T22:30:00+08:00",
       "output_path": "output/task-001",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T10:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T10:10:00Z", "operator": "manager", "target": "oc-kimi", "strategy": "capability_match"},
-        {"action": "in_progress", "timestamp": "2026-03-16T16:40:00Z", "operator": "oc-kimi"},
-        {"action": "review", "timestamp": "2026-03-16T16:45:00Z", "operator": "oc-kimi", "output_path": "output/task-001"},
-        {"action": "completed", "timestamp": "2026-03-16T14:30:00Z", "operator": "manager", "review_comment": "文章质量优秀,符合所有要求,审核通过"}
+        {"action": "created", "timestamp": "2026-03-16T18:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T18:10:00+08:00", "operator": "manager", "target": "oc-kimi", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T20:40:00+08:00", "operator": "oc-kimi"},
+        {"action": "review", "timestamp": "2026-03-16T20:45:00+08:00", "operator": "oc-kimi", "output_path": "output/task-001"},
+        {"action": "completed", "timestamp": "2026-03-16T22:30:00+08:00", "operator": "manager", "review_comment": "文章质量优秀,符合所有要求,审核通过"}
       ]
     },
     {
@@ -28,12 +28,12 @@
       "labels": ["coding", "medium"],
       "status": "assigned",
       "assignee": "oc-ecs",
-      "assigned_at": "2026-03-16T10:10:00Z",
+      "assigned_at": "2026-03-16T18:10:00+08:00",
       "source_file": "tasks-md/task-002-python-optimize.md",
-      "created_at": "2026-03-16T10:00:00Z",
+      "created_at": "2026-03-16T18:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T10:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T10:10:00Z", "operator": "manager", "target": "oc-ecs", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T18:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T18:10:00+08:00", "operator": "manager", "target": "oc-ecs", "strategy": "capability_match"}
       ]
     },
     {
@@ -42,12 +42,12 @@
       "labels": ["research", "normal"],
       "status": "assigned",
       "assignee": "oc-step",
-      "assigned_at": "2026-03-16T10:10:00Z",
+      "assigned_at": "2026-03-16T18:10:00+08:00",
       "source_file": "tasks-md/task-003-research-report.md",
-      "created_at": "2026-03-16T10:00:00Z",
+      "created_at": "2026-03-16T18:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T10:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T10:10:00Z", "operator": "manager", "target": "oc-step", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T18:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T18:10:00+08:00", "operator": "manager", "target": "oc-step", "strategy": "capability_match"}
       ]
     },
     {
@@ -56,12 +56,12 @@
       "labels": ["automation", "workflow", "high"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-004-automated-deployment.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -70,12 +70,12 @@
       "labels": ["integration", "api", "medium"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-005-api-integration.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -84,12 +84,12 @@
       "labels": ["workflow", "system", "high"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-006-workflow-orchestration.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -98,12 +98,12 @@
       "labels": ["automation", "scheduler", "medium"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-007-scheduled-tasks.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -112,12 +112,12 @@
       "labels": ["integration", "queue", "normal"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-008-message-queue.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -126,12 +126,12 @@
       "labels": ["integration", "webhook", "medium"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-009-webhook-system.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -140,12 +140,12 @@
       "labels": ["automation", "testing", "high"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-010-automation-framework.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -154,12 +154,12 @@
       "labels": ["workflow", "microservices", "high"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-011-microservices-orchestration.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -168,12 +168,12 @@
       "labels": ["automation", "data", "medium"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-012-data-pipeline.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     },
     {
@@ -182,12 +182,12 @@
       "labels": ["integration", "config", "normal"],
       "status": "assigned",
       "assignee": "oc-coze",
-      "assigned_at": "2026-03-16T12:00:00Z",
+      "assigned_at": "2026-03-16T20:00:00+08:00",
       "source_file": "tasks-md/task-013-configuration-management.md",
-      "created_at": "2026-03-16T12:00:00Z",
+      "created_at": "2026-03-16T20:00:00+08:00",
       "history": [
-        {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "created", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager"},
+        {"action": "assigned", "timestamp": "2026-03-16T20:00:00+08:00", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
       ]
     }
   ]
