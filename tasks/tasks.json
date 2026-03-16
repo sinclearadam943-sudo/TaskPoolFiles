@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-03-16T10:05:00Z",
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "编写AI科普文章",
+      "labels": ["writing", "high"],
+      "status": "pending",
+      "assignee": null,
+      "source_file": "tasks-md/task-001-ai-article.md",
+      "created_at": "2026-03-16T10:00:00Z",
+      "history": [
+        {"action": "created", "timestamp": "2026-03-16T10:00:00Z", "operator": "manager"}
+      ]
+    },
+    {
+      "id": "task-002",
+      "title": "Python代码优化任务",
+      "labels": ["coding", "medium"],
+      "status": "pending",
+      "assignee": null,
+      "source_file": "tasks-md/task-002-python-optimize.md",
+      "created_at": "2026-03-16T10:00:00Z",
+      "history": [
+        {"action": "created", "timestamp": "2026-03-16T10:00:00Z", "operator": "manager"}
+      ]
+    },
+    {
+      "id": "task-003",
+      "title": "市场调研报告",
+      "labels": ["research", "normal"],
+      "status": "pending",
+      "assignee": null,
+      "source_file": "tasks-md/task-003-research-report.md",
+      "created_at": "2026-03-16T10:00:00Z",
+      "history": [
+        {"action": "created", "timestamp": "2026-03-16T10:00:00Z", "operator": "manager"}
+      ]
+    }
+  ]
+}

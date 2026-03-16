@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-03-16T10:00:00Z",
+  "agents": [
+    {
+      "id": "oc-step",
+      "name": "Step Agent",
+      "type": "step",
+      "model": "step-2",
+      "status": "idle",
+      "capabilities": ["reasoning", "analysis", "math"],
+      "max_concurrent": 2,
+      "registered_at": "2026-03-16T09:00:00Z"
+    },
+    {
+      "id": "oc-kimi",
+      "name": "Kimi Agent",
+      "type": "kimi",
+      "model": "kimi-pro",
+      "status": "idle",
+      "capabilities": ["writing", "reading", "summary"],
+      "max_concurrent": 2,
+      "registered_at": "2026-03-16T09:15:00Z"
+    },
+    {
+      "id": "oc-ecs",
+      "name": "ECS Agent",
+      "type": "alibaba",
+      "model": "ecs-agent",
+      "status": "idle",
+      "capabilities": ["coding", "devops", "cloud"],
+      "max_concurrent": 1,
+      "registered_at": "2026-03-16T09:30:00Z"
+    },
+    {
+      "id": "oc-coze",
+      "name": "Coze Agent",
+      "type": "coze",
+      "model": "coze-bot",
+      "status": "idle",
+      "capabilities": ["workflow", "automation", "integration"],
+      "max_concurrent": 3,
+      "registered_at": "2026-03-16T09:45:00Z"
+    },
+    {
+      "id": "oc-qclaw",
+      "name": "QCLaw Agent",
+      "type": "qclaw",
+      "model": "qclaw-pro",
+      "status": "idle",
+      "capabilities": ["legal", "compliance", "review"],
+      "max_concurrent": 1,
+      "registered_at": "2026-03-16T10:00:00Z"
+    }
+  ]
+}
