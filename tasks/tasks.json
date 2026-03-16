@@ -52,140 +52,190 @@
       "id": "task-004",
       "title": "自动化部署流程设计",
       "labels": ["automation", "workflow", "high"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-004-automated-deployment.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T17:18:00Z",
+      "completed_at": "2026-03-16T17:23:00Z",
+      "output_path": "output/task-004",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T17:18:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T17:23:00Z", "operator": "oc-coze", "output_path": "output/task-004"}
       ]
     },
     {
       "id": "task-005",
       "title": "第三方API集成方案",
       "labels": ["integration", "api", "medium"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-005-api-integration.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T17:24:00Z",
+      "completed_at": "2026-03-16T17:29:00Z",
+      "output_path": "output/task-005",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T17:24:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T17:29:00Z", "operator": "oc-coze", "output_path": "output/task-005"}
       ]
     },
     {
       "id": "task-006",
       "title": "工作流编排系统设计",
       "labels": ["workflow", "system", "high"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-006-workflow-orchestration.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T17:30:00Z",
+      "completed_at": "2026-03-16T17:37:00Z",
+      "output_path": "output/task-006",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T17:30:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T17:37:00Z", "operator": "oc-coze", "output_path": "output/task-006"}
       ]
     },
     {
       "id": "task-007",
       "title": "定时任务调度器",
       "labels": ["automation", "scheduler", "medium"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-007-scheduled-tasks.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T17:38:00Z",
+      "completed_at": "2026-03-16T17:45:00Z",
+      "output_path": "output/task-007",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T17:38:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T17:45:00Z", "operator": "oc-coze", "output_path": "output/task-007"}
       ]
     },
     {
       "id": "task-008",
       "title": "消息队列集成方案",
       "labels": ["integration", "queue", "normal"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-008-message-queue.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T17:46:00Z",
+      "completed_at": "2026-03-16T17:51:00Z",
+      "output_path": "output/task-008",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T17:46:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T17:51:00Z", "operator": "oc-coze", "output_path": "output/task-008"}
       ]
     },
     {
       "id": "task-009",
       "title": "Webhook事件处理系统",
       "labels": ["integration", "webhook", "medium"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-009-webhook-system.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T17:53:00Z",
+      "completed_at": "2026-03-16T17:58:00Z",
+      "output_path": "output/task-009",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T17:53:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T17:58:00Z", "operator": "oc-coze", "output_path": "output/task-009"}
       ]
     },
     {
       "id": "task-010",
       "title": "自动化测试框架",
       "labels": ["automation", "testing", "high"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-010-automation-framework.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T17:59:00Z",
+      "completed_at": "2026-03-16T18:07:00Z",
+      "output_path": "output/task-010",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T17:59:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T18:07:00Z", "operator": "oc-coze", "output_path": "output/task-010"}
       ]
     },
     {
       "id": "task-011",
       "title": "微服务编排系统",
       "labels": ["workflow", "microservices", "high"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-011-microservices-orchestration.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T18:08:00Z",
+      "completed_at": "2026-03-16T18:13:00Z",
+      "output_path": "output/task-011",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T18:08:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T18:13:00Z", "operator": "oc-coze", "output_path": "output/task-011"}
       ]
     },
     {
       "id": "task-012",
       "title": "数据处理流水线",
       "labels": ["automation", "data", "medium"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-012-data-pipeline.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T18:14:00Z",
+      "completed_at": "2026-03-16T18:19:00Z",
+      "output_path": "output/task-012",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T18:14:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T18:19:00Z", "operator": "oc-coze", "output_path": "output/task-012"}
       ]
     },
     {
       "id": "task-013",
       "title": "配置管理系统",
       "labels": ["integration", "config", "normal"],
-      "status": "assigned",
+      "status": "review",
       "assignee": "oc-coze",
       "assigned_at": "2026-03-16T12:00:00Z",
       "source_file": "tasks-md/task-013-configuration-management.md",
       "created_at": "2026-03-16T12:00:00Z",
+      "started_at": "2026-03-16T18:20:00Z",
+      "completed_at": "2026-03-16T18:27:00Z",
+      "output_path": "output/task-013",
       "history": [
         {"action": "created", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager"},
-        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"}
+        {"action": "assigned", "timestamp": "2026-03-16T12:00:00Z", "operator": "manager", "target": "oc-coze", "strategy": "capability_match"},
+        {"action": "in_progress", "timestamp": "2026-03-16T18:20:00Z", "operator": "oc-coze"},
+        {"action": "review", "timestamp": "2026-03-16T18:27:00Z", "operator": "oc-coze", "output_path": "output/task-013"}
       ]
     }
   ]
